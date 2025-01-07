@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 *::after,
 *::before {
   margin: 0;
@@ -32,12 +38,13 @@ img {
 }
 
 body {
+  font-family: "Heebo";
   display: flex;
   flex-direction: column;
   height: 100%;
-//   font-family: ;
-//   font-weight: ;
-//   line-height: ;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: $dark-blue;
 }
 
 main {
@@ -46,7 +53,7 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
