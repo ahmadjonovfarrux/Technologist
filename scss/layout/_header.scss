@@ -1,0 +1,135 @@
+.header {
+  padding-bottom: 7.1rem;
+}
+
+.header__icon {
+  display: none;
+}
+
+.header__nav {
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
+  display: flex;
+  justify-content: right;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 3.3rem;
+}
+
+.header__link {
+  color: $black;
+  font-weight: 500;
+}
+
+.header__link:hover {
+  color: $primarary-red;
+}
+
+.header__link:active {
+  opacity: 60%;
+}
+
+.header__hero {
+  padding-top: 12rem;
+}
+
+.header__hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__hero__content {
+  width: 50.6rem;
+}
+
+.header__hero__title {
+  width: 44rem;
+  font-weight: 700;
+  font-size: $large-h1-fs;
+  line-height: $large-h1-lh;
+  margin-bottom: 4rem;
+}
+
+.header__hero__text {
+  font-weight: 400;
+  font-size: $small-text-fs;
+  line-height: $small-text-lh;
+  margin-bottom: 3.8rem;
+}
+
+.header__hero__btn {
+  width: 20.8rem;
+  height: 4.7rem;
+  padding: 9px 21px 17px 20px;
+  background-color: $primarary-red;
+  color: $white;
+  font-weight: 500;
+  font-size: $medium-fs;
+  line-height: $medium-lh;
+}
+
+.header__hero__btn:hover {
+  color: $dark-blue;
+}
+
+.header__hero__btn:active {
+  opacity: 60%;
+}
+
+.header__hero__img {
+  width: 24.3rem;
+  height: 24.3rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 750px) {
+  .header__hero__container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__hero__content {
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+  }
+  .header__hero__title {
+    width: 31.2rem;
+    text-align: center;
+    margin-bottom: 2.1rem;
+  }
+
+  .header__hero__text {
+    width: 32.8rem;
+  }
+
+  .header__hero__img {
+    margin-bottom: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__list {
+    display: none;
+  }
+
+  .header__icon {
+    display: flex;
+    width: 3rem;
+    height: 1.8rem;
+  }
+
+  .header__hero__img {
+    width: 17.4rem;
+    height: 18rem;
+  }
+}

@@ -9,12 +9,193 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <h1>hello world</h1>
+      <nav class="header__nav container">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">Works</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Blog</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Contact</a>
+          </li>
+        </ul>
+        <a class="header__icon" href="">
+          <img
+            class="header__bar__icon"
+            src="./images/burger-bar.png"
+            alt="icon of the burger bar"
+          />
+        </a>
+      </nav>
+
+      <!-- Header Hero -->
+      <section class="header__hero">
+        <div class="header__hero__container container">
+          <div class="header__hero__content">
+            <h1 class="header__hero__title">
+              Hi, I am John, Creative Technologist
+            </h1>
+            <p class="header__hero__text">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <a class="header__hero__btn" href="#"> Download Resume </a>
+          </div>
+          <picture>
+            <source srcset="./images/image-person.mobile.png" />
+            <img
+              class="header__hero__img"
+              src="./images/image-person.desktop.png"
+              alt=""
+            />
+          </picture>
+        </div>
+      </section>
     </header>
     <!-- Main -->
-    <main class="main"></main>
+    <main class="main">
+      <!-- Design__info -->
+      <div class="design__info">
+        <div class="design__info__container container">
+          <div class="design__subtitle__box">
+            <p class="design__info__subtitle">Recent posts</p>
+            <p class="design__info-subtitle">View all</p>
+          </div>
+          <div class="design__info__box">
+            <div class="design__info__post">
+              <h3 class="design__info__post__title">
+                Making a design system from scratch
+              </h3>
+              <p class="design__info__post__subtitle">
+                12 Feb 2020 | Design, Pattern
+              </p>
+              <p class="design__info__text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+            <!-- Second one -->
+            <div class="design__info__post">
+              <h3 class="design__info__post__title">
+                Creating pixel perfect icons in Figma
+              </h3>
+              <p class="design__info__post__subtitle">
+                12 Feb 2020 | Figma, Icon Design
+              </p>
+              <p class="design__info__text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Features  -->
+      <section class="features">
+        <div class="features__container container">
+          <p class="features__subtitle">Featured works</p>
+          <div class="features__works">
+            <div class="features__post">
+              <img
+                class="features__img"
+                src="./images/features-analyz.png"
+                alt="image of analyz"
+              />
+              <div class="features__content">
+                <h2 class="features__title">Designing Dashboards</h2>
+                <div class="features__type">
+                  <p class="features__year">2020</p>
+                  <p class="features__post__subtitle">Dashboard</p>
+                </div>
+                <p class="features__text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <hr class="features-hr" />
+            <!-- Second -->
+            <div class="features__post">
+              <img
+                class="features__img"
+                src="./images/features-girl.png"
+                alt="image of analyz"
+              />
+              <div class="features__content">
+                <h2 class="features__title">Vibrant Portraits of 2020</h2>
+                <div class="features__type">
+                  <p class="features__year">2018</p>
+                  <p class="features__post__subtitle">Illustration</p>
+                </div>
+                <p class="features__text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <hr class="features-hr" />
+            <!-- Third -->
+            <div class="features__post">
+              <img
+                class="features__img"
+                src="./images/features-shape.png"
+                alt="image of analyz"
+              />
+              <div class="features__content">
+                <h2 class="features__title">36 Days of Malayalam type</h2>
+                <div class="features__type">
+                  <p class="features__year">2018</p>
+                  <p class="features__post__subtitle">Typography</p>
+                </div>
+                <p class="features__text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <hr class="features-hr" />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <fooer class="footer"> </fooer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__social__info">
+          <div class="footer__icons">
+            <img
+              class="facebook footer__socials"
+              src="./images/facebook.png"
+              alt="facebook"
+            />
+            <img
+              class="instagram footer__socials"
+              src="./images/insta.png"
+              alt="instagram"
+            />
+            <img
+              class="twitter footer__socials"
+              src="/images/twitter.png"
+              alt="twitter"
+            />
+            <img
+              class="linkedin footer__socials"
+              src="/images/Linkedin.png"
+              alt="linkedin"
+            />
+          </div>
+          <p class="footer__text">Copyright ©2020 All rights reserved</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
